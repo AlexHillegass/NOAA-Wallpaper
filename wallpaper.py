@@ -11,8 +11,8 @@ Must set task to run using windows Task Scheduler.
 """
 NOAA = 'https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/latest.jpg'
 # PATH = os.path.dirname(os.path.abspath(__file__)) + "\\"
-USER = os.getlogin()
-PATH = "C:/Users/" + USER + "/Pictures/"
+# USER = os.getlogin()
+PATH = "C:/Users/Public/Pictures/"
 NAME = "NOAA_SATELLITE_IMAGE.jpg"
 
 RESPONSE_SUCCESS_CODE = 200     # OK response to get request
