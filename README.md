@@ -6,4 +6,4 @@ Use Task Scheduler to get updated wallpaper each hour.
 
 Pull latest build or rebuild using:
 
-    pyinstaller --onefile wallpaper.py
+    pyinstaller --onefile --noconsole wallpaper.py

@@ -6,7 +6,7 @@ import numpy as np
 import os
 """
 By: Alex Hillegass
-pyinstaller --onefile background.py
+pyinstaller --onefile --noconsole background.py
 Must set task to run using windows Task Scheduler.
 """
 NOAA = 'https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/latest.jpg'
